@@ -11,7 +11,7 @@
         android:id="@+id/imageView"
         android:layout_width="419dp"
         android:layout_height="226dp"
-        android:layout_marginTop="-16dp"
+        android:layout_marginTop="-20dp"
         android:contentDescription="Title Image"
         android:src="@drawable/daily_workout"
         app:layout_constraintEnd_toEndOf="parent"
