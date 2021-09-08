@@ -21,15 +21,23 @@
         android:orientation="vertical"
         android:visibility="visible">
 
+        <ImageView
+            android:id="@+id/iv_exercise_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            android:layout_weight="1"/>
+
         <TextView
+            android:id="@+id/tv_timer_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GET READY FOR"
             android:textColor="?colorPrimaryVariant"
             android:textSize="22sp"
             android:textStyle="bold" />
 
         <FrameLayout
+            android:layout_weight=".3"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="10dp">
